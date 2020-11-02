@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Revisão</title>
-
+    <script src="character.js"></script>
   </head>
 
   <body>
@@ -27,8 +27,8 @@
 <h2>A Revisão Textual</h2>
 	
 	<h3> Simulação </h3>
-	<textarea rows="5" cols="50">
-	</textarea>
+  <textarea rows="5" cols="50" id="textbox" onkeyup="charcountupdate(this.value)"> Insira o texto aqui</textarea>
+  <p>R$ <span id=charcount></span></p>
 </FONT>
 
 <center>
